@@ -16,7 +16,7 @@ TCP 提供了一种面向连接的、可靠的字节流服务，本次实验使�
 
 首先需要启动服务器，等待客户端的连接。客户端启动之后向服务器发送请求，等待服务器处理、建立连接之后返回响应。之后可以进行文件传输，直到客户端关闭连接。
 
-![image-20201230011335903](E:\Recent\SocketTcpTransfer-main\README.assets\image-20201230011335903.png)
+![image-20201230011335903](https://github.com/Thooooor/SocketTcpTransfer/blob/main/README.assets/image-20201230011335903.png?raw=true)
 
 ## 2.2 客户端
 
@@ -40,18 +40,18 @@ TCP 提供了一种面向连接的、可靠的字节流服务，本次实验使�
 
 Ubuntu客户端运行情况如下，两次连接都建立成功，上传和下载命令都成功执行。
 
-![ubuntu客户端](E:\Recent\SocketTcpTransfer-main\README.assets\image-20201230013232435.png)
+![ubuntu客户端](https://github.com/Thooooor/SocketTcpTransfer/blob/main/README.assets/image-20201230013232435.png?raw=true)
 
 windows客户端运行情况如下，两次连接都建立成功，上传和下载命令都成功执行。
 
-![windows客户端](E:\Recent\SocketTcpTransfer-main\README.assets\image-20201230013259872.png)
+![windows客户端](https://github.com/Thooooor/SocketTcpTransfer/blob/main/README.assets/image-20201230013259872.png?raw=true)
 
 Linux服务器端运行情况如下，根据打印的进程id能够判断多线程运行成功，同时，根据执行指令时的打印信息，能够判断两条指令交叉执行。
 
-![image-20201230013502483](E:\Recent\SocketTcpTransfer-main\README.assets\image-20201230013502483.png)
+![image-20201230013502483](https://github.com/Thooooor/SocketTcpTransfer/blob/main/README.assets/image-20201230013502483.png?raw=true)
 
 最终在服务器端能够得到接收的两个新文件：
 
-![image-20201230013748587](E:\Recent\SocketTcpTransfer-main\README.assets\image-20201230013748587.png)
+![image-20201230013748587](https://github.com/Thooooor/SocketTcpTransfer/blob/main/README.assets/image-20201230013748587.png?raw=true)
 
 两个本地的客户端也都有两个文件。
